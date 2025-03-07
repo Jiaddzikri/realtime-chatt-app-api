@@ -1,0 +1,50 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# key
+*.pem
+
+# Dependencies
+node_modules/
+.pnpm-store
+
+# Environment variables
+.env
+
+tests/
+test/
+coverage/
+# macOS files
+.DS_Store
+
+# Build output
+build/
+dist/
+
+# Test coverage
+coverage/
+.nyc_output
+
+# IDE config files
+.idea/
+.vscode/
+
+# Local config files (optional)
+config/local.js
+config/development.js
+
+# Process and seed files
+*.pid
+*.seed
+
+# Backup files
+*.orig
+
+# Cache files
+.cache/
+
+# pnpm specific
+.pnpm-debug.log*
